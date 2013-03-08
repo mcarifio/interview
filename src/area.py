@@ -2,7 +2,8 @@
 '''
 Problem posed:
 
-Given a 2D integer array, where each element can be 1 (represents white) or 0 (represents black). Write a function which calculates the largest contiguous white area.
+Given a 2D integer array, where each element can be 1 (represents white) or 0 (represents black). 
+Write a function which calculates the largest contiguous white area.
 
 0 0 1 0
 1 1 1 0
@@ -23,9 +24,9 @@ I didn't complete this during the interview process. Finished it about an hour l
 def none_counted(grid):
     return [[False for i in range(len(grid))] for i in range(len(grid))]
 
-# Compute the large contiguous area in an n x n grid. For a cell (i,j) the four
+# Compute the largest contiguous area in an n x n grid. For a cell (i,j) the four
 # cells (i - 1, j) or left, (i + 1, j) or right, (i, j - 1) or above and (i, j + 1) or
-# below are considered contiguous cells to be checked. Don't get the diagonals.
+# below are considered contiguous cells to be checked. Don't do the diagonals.
 def largest_white_area(grid):
     max_area = 0 # no areas found yet
     grid_size = len(grid) # iteration bounds
