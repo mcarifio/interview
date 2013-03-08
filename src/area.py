@@ -70,10 +70,12 @@ def cell_area(grid, row, col, counted):
 
     # Counting my neighbors, remember I've been counted
     counted[row][col] = True
-    return 1 + cell_area(grid, row - 1, col, counted) + \
-               cell_area(grid, row + 1, col, counted) + \
-               cell_area(grid, row, col - 1, counted) + \
-               cell_area(grid, row, col + 1, counted)
+    count = 1
+    count += cell_area(grid, row - 1, col, counted) # left
+    count += cell_area(grid, row + 1, col, counted) # right
+    count += cell_area(grid, row, col - 1, counted) # above
+    count += cell_area(grid, row, col + 1, counted) # below
+    return count
      
     
     
