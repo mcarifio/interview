@@ -14,3 +14,6 @@ This repo is an eclipse/pydev project.
 area.py is a combinatorics and recursion problem. I got the recursive nature of the problem, but didn't discover 
 that I would recount parts of the grid without a supporting data structure to terminate the recursion.
 
+## By Direction of my CodeShip Masters
+
+[ ![Codeship Status for mcarifio/interviewpy](https://codeship.com/projects/b24b3a60-605d-0132-5208-2696ea524dd6/status)](https://codeship.com/projects/51629)
