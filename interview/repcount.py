@@ -9,6 +9,16 @@ logger.debug(logger.level)
 import sys
 import re
 
+def render_count(count:int)->str:
+    '''
+    Used to render the repetition count in the generated string.
+    If the count is 1, return the empty string otherwise return the count.
+    :param count: number of repetitions, count >= 1 always
+    :return: '' or the count
+    '''
+    if count == 1: return ''   # the "default"
+    return str(count)  # the actual count
+
 def crunch(s:str)->str:
     '''
     Return a character and it's repetition count if the count is greater than 1. For example, 'AAABBBC' => 'A3B3C'
@@ -29,12 +39,8 @@ def crunch(s:str)->str:
         letters = re.match(f'({c})+', s[position:])
         # Get the number of letters matched
         count = len(letters.group(0))
-        if count > 1:
-            # If it's two or more, create a rep count
-            result.append(f"{c}{count}")
-        else:
-            # Just append the characterf
-            result.append(c)
+        # If it's two or more, create a rep count
+        result.append(f"{c}{render_count(count)}")
         # move right by the number of matches
         position += count
 
