@@ -8,6 +8,7 @@ authors = ["Mike Carifio <mike@carif.io>"]
 
 [tool.poetry.dependencies]
 python = "3.7"
+numpy = "*"  # big stick
 fire = "*"
 
 [tool.poetry.dev-dependencies]
@@ -15,6 +16,31 @@ pytest = "^3.4"
 pytest-runner = "*"
 testfixtures = "*"
 hypothesis = "*"
+black = ""
+
+# https://black.readthedocs.io/en/latest/pyproject_toml.html
+[tool.black]
+line-length = 100
+py36 = true
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+)/
+'''
 
 [tool.poetry.scripts]
 # poetry run python_version  ## doesn't work

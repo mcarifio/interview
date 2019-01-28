@@ -13,7 +13,7 @@ def clean(s:str)->str:
     # Note: I assume a character that is not whitespace or punctuation is the same as asking if its alphanumeric.
     # https://stackoverflow.com/questions/5843518/remove-all-special-characters-punctuation-and-spaces-from-string does it
     #   a little differently, the filter isn't explicit.
-    return ''.join(filter(str.isalnum, (c for c in s)))
+    return ''.join(c for c in s if c.isalnum())  ## filter out characters that aren't alphanumic
 
 def is_palindrome(s:str)->bool:
     '''is_palindrome returns True iff s is equal forwards and backwards without punctuation'''
@@ -25,9 +25,12 @@ def is_palindrome(s:str)->bool:
     return all(front == back for (front, back) in zip(clean_s[:halfway + 1], clean_s[-1: halfway - 1:-1]))
 
 
-def main(argv):
-    logger.debug(is_palindrome(" %%%%%\t 121!! "))
-    logger.debug(is_palindrome("1234"))
 
-if '__main__' == __name__:
-    main(sys.argv)
+# See ../tests/test_palindrome.py to test the implementation.
+
+# def main(argv):
+#     logger.debug(is_palindrome(" %%%%%\t 121!! "))
+#     logger.debug(is_palindrome("1234"))
+#
+# if '__main__' == __name__:
+#     main(sys.argv)

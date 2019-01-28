@@ -599,6 +599,7 @@ Process finished with exit code 0
 """
 
 import logging
+
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 logger.debug(f"logging starts at level {logging.getLevelName(logger.getEffectiveLevel())}")
@@ -611,6 +612,7 @@ from typing import List
 from itertools import cycle  ## https://docs.python.org/3/library/itertools.html#itertools.cycle
 import inspect
 import fire
+
 
 class Dice:
     """
@@ -629,6 +631,7 @@ class Dice:
 
     def roll(self):
         return random.choice(self.values)  # choose a dice face at random, all outcomes equally probable
+
 
 # TODO mike@carif.io: @dataclass? My intuition is no.
 class Roll:
@@ -651,12 +654,17 @@ class Roll:
 @dataclass  ## https://docs.python.org/3/library/dataclasses.html
 class Bettor:
     _name: str  ## Bettor's name, e.g. 'house' or 'Mike'
+
     @property
-    def name(self): return self._name
+    def name(self):
+        return self._name
 
     _current_balance: int  ## How much money the bettor has currently in USD
+
     @property
-    def current_balance(self): return self._current_balance
+    def current_balance(self):
+        return self._current_balance
+
     @current_balance.setter
     def current_balance(self, value):
         self._current_balance = value
@@ -664,64 +672,70 @@ class Bettor:
         self.max = value
         self._current_balance = value
 
-
-
     _min: int  ## min, the lowest balance this bettor has ever had, in USD. Starts as the current balance. It's a property.
+
     @property
-    def min(self): return self._min
+    def min(self):
+        return self._min
+
     @min.setter
     def min(self, value):
         self._min = min(self._min, value)
 
     _max: int  ## max, the highest balance this bettor has ever had, in USD. Starts as the current balance. It's a property.
+
     @property
-    def max(self): return self._max
+    def max(self):
+        return self._max
+
     @max.setter
     def max(self, value):
         self._max = max(self._max, value)
 
-    def __init__(self, name=None, balance:int=None):
+    def __init__(self, name=None, balance: int = None):
         self._name = name
         if balance > 0:
             self._min = self._max = self._current_balance = balance
         else:
             raise Exception('Need a positive balance')
 
-    def win(self, amount:int):
+    def win(self, amount: int):
         """Bettor self won the bet amount. Positive amounts are with the shooter, negative are against the shooter."""
         self.current_balance += amount
         self.current_bet = 0
         return self  ## fluent
 
-    def lose(self, amount:int):
+    def lose(self, amount: int):
         """Bettor self lost the bet amount. Positive amounts are with the shooter, negative are against the shooter."""
         self.win(-amount)
         return self  ## fluent
-
 
 
 @dataclass
 class Shooter(Bettor):
     """A shooter is a bettor who shoots the dice. The house doesn't shoot"""
 
-    _current_bet: int = 0 ## The current bet is USD. 0 means "no bet". It's a property.
+    _current_bet: int = 0  ## The current bet is USD. 0 means "no bet". It's a property.
+
     @property
-    def current_bet(self): return self._current_bet
+    def current_bet(self):
+        return self._current_bet
+
     @current_bet.setter
     def current_bet(self, value):
         self._current_bet = value
         return self
 
-
     _past_throws: List[int] = field(default_factory=list)  ## history of throws
+
     @property
-    def past_throws(self): return self._past_throws
+    def past_throws(self):
+        return self._past_throws
+
     history = past_throws  ## better alias for past_throws
 
-
-    def __init__(self, name=None, balance:int=None):
+    def __init__(self, name=None, balance: int = None):
         super().__init__(name=name, balance=balance)
-
 
     # TODO mike@carif.io: should this be a setter on past_throws? Don't think so.
     def remember(self, dice):
@@ -733,8 +747,7 @@ class Shooter(Bettor):
         self._past_throws.append(dice)
         return self
 
-
-    def shoot(self, dice:Roll)->tuple:
+    def shoot(self, dice: Roll) -> tuple:
         """
         The shooter is given the dice which he rolls. Remember that role and then result it.
         :param dice:
@@ -744,8 +757,7 @@ class Shooter(Bettor):
         self.remember(result)
         return result
 
-
-    def bet(self, amount:int=100):
+    def bet(self, amount: int = 100):
         """
         Bet an amount. Shooter must be able to cover the bet.
         :param amount:
@@ -757,7 +769,6 @@ class Shooter(Bettor):
             raise Exception(f"Can't cover {amount} bet, balance: {current_balance}")()
         return self
 
-
     def win_double(self):
         """House doubles bettor's bet."""
         self.win(amount=self.current_bet * 2)
@@ -767,7 +778,6 @@ class Shooter(Bettor):
         """Bettor self lost the bet amount. Positive amounts are with the shooter, negative are against the shooter."""
         super().lose(self.current_bet)
         return self  ## fluent
-
 
 
 def game(roll=Roll(), rules=None, house=None, shooters=None, starting_bet=100):
@@ -801,14 +811,16 @@ def game(roll=Roll(), rules=None, house=None, shooters=None, starting_bet=100):
         # The game can only continue if the house and some shooter can bet. Testing this on every iteration is a little
         #   hacky, but it allows for cycle() above.
         if house.current_balance <= 0: return game_over(statistics)
-        if not any(s for s in shooters if s.current_balance > 0): return game_over(statistics)  ##  if all the shooters are busted, game over. not any == some.
+        if not any(s for s in shooters if s.current_balance > 0): return game_over(
+            statistics)  ##  if all the shooters are busted, game over. not any == some.
         if current_shooter.current_balance <= 0: continue  ## current shooter can't shoot without money
         # Here: current_shooter has enough money to shoot
 
         logger.info(f"** shooter: {current_shooter.name}")
 
         # Let's see who can cover the starting bet?
-        bettors = list(s for s in shooters if s.current_balance >= starting_bet) ## bettors are all shooters who can cover the starting_bet. At least the current shooter can.
+        bettors = list(s for s in shooters if
+                       s.current_balance >= starting_bet)  ## bettors are all shooters who can cover the starting_bet. At least the current shooter can.
         for b in bettors: b.current_bet = starting_bet  ## all bettors bet the starting bet
 
         # Let's play! https://www.youtube.com/watch?v=j7uL3DryXkk
@@ -880,7 +892,6 @@ def game(roll=Roll(), rules=None, house=None, shooters=None, starting_bet=100):
         for b in bettors: logger.info(f"* {b.name}: {b.current_balance}")
 
 
-
 def craps(level='INFO'):
     """
     Generate a game of craps and then play it.
@@ -913,7 +924,5 @@ def craps(level='INFO'):
     return game_statistics
 
 
-
 if '__main__' == __name__:
     fire.Fire(craps)
-
