@@ -27,12 +27,22 @@ pip-log.txt
 nosetests.xml
 
 # Translations
-*.mo
+
 
 # Mr Developer
 .mr.developer.cfg
 .project
 .pydevproject
 .python-version
-Pipfile
-Pipfile.lock
+
+# ignore compressed files
+*.xz
+*.gz
+.tar
+
+# ignore cache directories
+*_cache
+
+# ignore package lock files
+*.lock
+

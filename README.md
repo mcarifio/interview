@@ -1,6 +1,6 @@
-# Interview
+# Interviewpy
 
-Interview questions I've been posed ... and finally solved :-). Think of this as the adult version of posting college
+Interview questions posed and solved, sometimes after the fat. Think of this as the adult version of posting college
 rejection notices. I had a fair amount of those too.
 
 ## Layout
@@ -8,19 +8,11 @@ rejection notices. I had a fair amount of those too.
 I try to do interview questions in python3 to speed things along. It hasn't always worked.
 
 The repo uses [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for the environment and 
-[pipenv](https://pipenv.readthedocs.io/en/latest/) for the local modules. In this way, the global environment should remain pristine.
-[Pycharm](https://www.jetbrains.com/pycharm/) has built-in support for pipenv style projects. 
+[poetry](https://poetry.eustace.io/docs/) for the local (project venv) modules. In this way, the global environment should remain pristine.
+[Pycharm](https://www.jetbrains.com/pycharm/) doesn't have builtin support for `pyproject.toml` files (but does for `Pipfile`s). 
 
-This project uses the [python guide structure recommendations](https://docs.python-guide.org/writing/structure/) with `interview` as "the module". 
-
-## area.py
-
-area.py is a combinatorics and recursion problem. I got the recursive nature of the problem, but didn't discover 
-that I would recount parts of the grid without a supporting data structure to terminate the recursion.
-
-## palindrome
-
-## repeat_count
+This project uses the [python guide structure recommendations](https://docs.python-guide.org/writing/structure/) with `interview` as "the module". It puts `tests` at the top level as
+recommended by `pytest`. Of course, it would be nice if we could all coordinate these conventions. Until then, make your own. 
 
 
 # TODO

@@ -1,0 +1,28 @@
+# https://poetry.eustace.io/docs/pyproject/
+
+[tool.poetry]
+name = "interviewpy"
+version = "0.1.0"
+description = ""
+authors = ["Mike Carifio <mike@carif.io>"]
+
+[tool.poetry.dependencies]
+python = "3.7"
+fire = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
+pytest-runner = "*"
+testfixtures = "*"
+hypothesis = "*"
+
+[tool.poetry.scripts]
+# poetry run python_version  ## doesn't work
+python_version = "python --version"
+# poetry run test  ## doesn't work
+test = "python -m pytest --verbose tests/"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

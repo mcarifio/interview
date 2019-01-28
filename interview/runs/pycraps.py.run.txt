@@ -1,0 +1,501 @@
+/home/mcarifio/.pyenv/versions/3.7.0/bin/python /home/mcarifio/src/mcarifio/interviewpy/interview/pycraps.py
+DEBUG:__main__:logging starts at level DEBUG
+INFO:craps:Let's play...
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 7
+INFO:craps:Mike wins
+INFO:craps:* house: 9200
+INFO:craps:* Mike: 1200
+INFO:craps:* Trey: 1200
+INFO:craps:* Guido: 1200
+INFO:craps:* heisenberg: 1200
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 11
+INFO:craps:Trey wins
+INFO:craps:* house: 8400
+INFO:craps:* Mike: 1400
+INFO:craps:* Trey: 1400
+INFO:craps:* Guido: 1400
+INFO:craps:* heisenberg: 1400
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 6
+INFO:craps:Guido's point: 6
+INFO:craps:Guido shoots: 4
+INFO:craps:Guido shoots: 6
+INFO:craps:Guido matches point 6
+INFO:craps:Guido wins
+INFO:craps:* house: 7600
+INFO:craps:* Mike: 1600
+INFO:craps:* Trey: 1600
+INFO:craps:* Guido: 1600
+INFO:craps:* heisenberg: 1600
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 6
+INFO:craps:heisenberg's point: 6
+INFO:craps:heisenberg shoots: 10
+INFO:craps:heisenberg shoots: 7
+INFO:craps:heisenberg craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 8000
+INFO:craps:* Mike: 1500
+INFO:craps:* Trey: 1500
+INFO:craps:* Guido: 1500
+INFO:craps:* heisenberg: 1500
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 7
+INFO:craps:Mike wins
+INFO:craps:* house: 7200
+INFO:craps:* Mike: 1700
+INFO:craps:* Trey: 1700
+INFO:craps:* Guido: 1700
+INFO:craps:* heisenberg: 1700
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 4
+INFO:craps:Trey's point: 4
+INFO:craps:Trey shoots: 8
+INFO:craps:Trey shoots: 7
+INFO:craps:Trey craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 7600
+INFO:craps:* Mike: 1600
+INFO:craps:* Trey: 1600
+INFO:craps:* Guido: 1600
+INFO:craps:* heisenberg: 1600
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 3
+INFO:craps:house wins
+INFO:craps:* house: 8000
+INFO:craps:* Mike: 1500
+INFO:craps:* Trey: 1500
+INFO:craps:* Guido: 1500
+INFO:craps:* heisenberg: 1500
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 3
+INFO:craps:house wins
+INFO:craps:* house: 8400
+INFO:craps:* Mike: 1400
+INFO:craps:* Trey: 1400
+INFO:craps:* Guido: 1400
+INFO:craps:* heisenberg: 1400
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 2
+INFO:craps:house wins
+INFO:craps:* house: 8800
+INFO:craps:* Mike: 1300
+INFO:craps:* Trey: 1300
+INFO:craps:* Guido: 1300
+INFO:craps:* heisenberg: 1300
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 6
+INFO:craps:Trey's point: 6
+INFO:craps:Trey shoots: 7
+INFO:craps:Trey craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 9200
+INFO:craps:* Mike: 1200
+INFO:craps:* Trey: 1200
+INFO:craps:* Guido: 1200
+INFO:craps:* heisenberg: 1200
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 8
+INFO:craps:Guido's point: 8
+INFO:craps:Guido shoots: 5
+INFO:craps:Guido shoots: 8
+INFO:craps:Guido matches point 8
+INFO:craps:Guido wins
+INFO:craps:* house: 8400
+INFO:craps:* Mike: 1400
+INFO:craps:* Trey: 1400
+INFO:craps:* Guido: 1400
+INFO:craps:* heisenberg: 1400
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 10
+INFO:craps:heisenberg's point: 10
+INFO:craps:heisenberg shoots: 5
+INFO:craps:heisenberg shoots: 6
+INFO:craps:heisenberg shoots: 8
+INFO:craps:heisenberg shoots: 3
+INFO:craps:heisenberg shoots: 9
+INFO:craps:heisenberg shoots: 2
+INFO:craps:heisenberg shoots: 4
+INFO:craps:heisenberg shoots: 7
+INFO:craps:heisenberg craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 8800
+INFO:craps:* Mike: 1300
+INFO:craps:* Trey: 1300
+INFO:craps:* Guido: 1300
+INFO:craps:* heisenberg: 1300
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 5
+INFO:craps:Mike's point: 5
+INFO:craps:Mike shoots: 8
+INFO:craps:Mike shoots: 9
+INFO:craps:Mike shoots: 3
+INFO:craps:Mike shoots: 9
+INFO:craps:Mike shoots: 5
+INFO:craps:Mike matches point 5
+INFO:craps:Mike wins
+INFO:craps:* house: 8000
+INFO:craps:* Mike: 1500
+INFO:craps:* Trey: 1500
+INFO:craps:* Guido: 1500
+INFO:craps:* heisenberg: 1500
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 5
+INFO:craps:Trey's point: 5
+INFO:craps:Trey shoots: 10
+INFO:craps:Trey shoots: 6
+INFO:craps:Trey shoots: 5
+INFO:craps:Trey matches point 5
+INFO:craps:Trey wins
+INFO:craps:* house: 7200
+INFO:craps:* Mike: 1700
+INFO:craps:* Trey: 1700
+INFO:craps:* Guido: 1700
+INFO:craps:* heisenberg: 1700
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 6
+INFO:craps:Guido's point: 6
+INFO:craps:Guido shoots: 4
+INFO:craps:Guido shoots: 5
+INFO:craps:Guido shoots: 8
+INFO:craps:Guido shoots: 7
+INFO:craps:Guido craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 7600
+INFO:craps:* Mike: 1600
+INFO:craps:* Trey: 1600
+INFO:craps:* Guido: 1600
+INFO:craps:* heisenberg: 1600
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 7
+INFO:craps:heisenberg wins
+INFO:craps:* house: 6800
+INFO:craps:* Mike: 1800
+INFO:craps:* Trey: 1800
+INFO:craps:* Guido: 1800
+INFO:craps:* heisenberg: 1800
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 6
+INFO:craps:Mike's point: 6
+INFO:craps:Mike shoots: 2
+INFO:craps:Mike shoots: 9
+INFO:craps:Mike shoots: 5
+INFO:craps:Mike shoots: 4
+INFO:craps:Mike shoots: 4
+INFO:craps:Mike shoots: 8
+INFO:craps:Mike shoots: 10
+INFO:craps:Mike shoots: 5
+INFO:craps:Mike shoots: 6
+INFO:craps:Mike matches point 6
+INFO:craps:Mike wins
+INFO:craps:* house: 6000
+INFO:craps:* Mike: 2000
+INFO:craps:* Trey: 2000
+INFO:craps:* Guido: 2000
+INFO:craps:* heisenberg: 2000
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 9
+INFO:craps:Trey's point: 9
+INFO:craps:Trey shoots: 5
+INFO:craps:Trey shoots: 8
+INFO:craps:Trey shoots: 10
+INFO:craps:Trey shoots: 10
+INFO:craps:Trey shoots: 5
+INFO:craps:Trey shoots: 2
+INFO:craps:Trey shoots: 5
+INFO:craps:Trey shoots: 2
+INFO:craps:Trey shoots: 4
+INFO:craps:Trey shoots: 8
+INFO:craps:Trey shoots: 11
+INFO:craps:Trey shoots: 10
+INFO:craps:Trey shoots: 5
+INFO:craps:Trey shoots: 8
+INFO:craps:Trey shoots: 3
+INFO:craps:Trey shoots: 7
+INFO:craps:Trey craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 6400
+INFO:craps:* Mike: 1900
+INFO:craps:* Trey: 1900
+INFO:craps:* Guido: 1900
+INFO:craps:* heisenberg: 1900
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 4
+INFO:craps:Guido's point: 4
+INFO:craps:Guido shoots: 10
+INFO:craps:Guido shoots: 4
+INFO:craps:Guido matches point 4
+INFO:craps:Guido wins
+INFO:craps:* house: 5600
+INFO:craps:* Mike: 2100
+INFO:craps:* Trey: 2100
+INFO:craps:* Guido: 2100
+INFO:craps:* heisenberg: 2100
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 10
+INFO:craps:heisenberg's point: 10
+INFO:craps:heisenberg shoots: 8
+INFO:craps:heisenberg shoots: 12
+INFO:craps:heisenberg shoots: 8
+INFO:craps:heisenberg shoots: 7
+INFO:craps:heisenberg craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 6000
+INFO:craps:* Mike: 2000
+INFO:craps:* Trey: 2000
+INFO:craps:* Guido: 2000
+INFO:craps:* heisenberg: 2000
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 5
+INFO:craps:Mike's point: 5
+INFO:craps:Mike shoots: 4
+INFO:craps:Mike shoots: 7
+INFO:craps:Mike craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 6400
+INFO:craps:* Mike: 1900
+INFO:craps:* Trey: 1900
+INFO:craps:* Guido: 1900
+INFO:craps:* heisenberg: 1900
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 6
+INFO:craps:Trey's point: 6
+INFO:craps:Trey shoots: 4
+INFO:craps:Trey shoots: 8
+INFO:craps:Trey shoots: 7
+INFO:craps:Trey craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 6800
+INFO:craps:* Mike: 1800
+INFO:craps:* Trey: 1800
+INFO:craps:* Guido: 1800
+INFO:craps:* heisenberg: 1800
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 3
+INFO:craps:house wins
+INFO:craps:* house: 7200
+INFO:craps:* Mike: 1700
+INFO:craps:* Trey: 1700
+INFO:craps:* Guido: 1700
+INFO:craps:* heisenberg: 1700
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 10
+INFO:craps:heisenberg's point: 10
+INFO:craps:heisenberg shoots: 8
+INFO:craps:heisenberg shoots: 10
+INFO:craps:heisenberg matches point 10
+INFO:craps:heisenberg wins
+INFO:craps:* house: 6400
+INFO:craps:* Mike: 1900
+INFO:craps:* Trey: 1900
+INFO:craps:* Guido: 1900
+INFO:craps:* heisenberg: 1900
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 8
+INFO:craps:Mike's point: 8
+INFO:craps:Mike shoots: 7
+INFO:craps:Mike craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 6800
+INFO:craps:* Mike: 1800
+INFO:craps:* Trey: 1800
+INFO:craps:* Guido: 1800
+INFO:craps:* heisenberg: 1800
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 7
+INFO:craps:Trey wins
+INFO:craps:* house: 6000
+INFO:craps:* Mike: 2000
+INFO:craps:* Trey: 2000
+INFO:craps:* Guido: 2000
+INFO:craps:* heisenberg: 2000
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 7
+INFO:craps:Guido wins
+INFO:craps:* house: 5200
+INFO:craps:* Mike: 2200
+INFO:craps:* Trey: 2200
+INFO:craps:* Guido: 2200
+INFO:craps:* heisenberg: 2200
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 6
+INFO:craps:heisenberg's point: 6
+INFO:craps:heisenberg shoots: 4
+INFO:craps:heisenberg shoots: 4
+INFO:craps:heisenberg shoots: 7
+INFO:craps:heisenberg craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 5600
+INFO:craps:* Mike: 2100
+INFO:craps:* Trey: 2100
+INFO:craps:* Guido: 2100
+INFO:craps:* heisenberg: 2100
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 8
+INFO:craps:Mike's point: 8
+INFO:craps:Mike shoots: 6
+INFO:craps:Mike shoots: 8
+INFO:craps:Mike matches point 8
+INFO:craps:Mike wins
+INFO:craps:* house: 4800
+INFO:craps:* Mike: 2300
+INFO:craps:* Trey: 2300
+INFO:craps:* Guido: 2300
+INFO:craps:* heisenberg: 2300
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 4
+INFO:craps:Trey's point: 4
+INFO:craps:Trey shoots: 2
+INFO:craps:Trey shoots: 11
+INFO:craps:Trey shoots: 4
+INFO:craps:Trey matches point 4
+INFO:craps:Trey wins
+INFO:craps:* house: 4000
+INFO:craps:* Mike: 2500
+INFO:craps:* Trey: 2500
+INFO:craps:* Guido: 2500
+INFO:craps:* heisenberg: 2500
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 11
+INFO:craps:Guido wins
+INFO:craps:* house: 3200
+INFO:craps:* Mike: 2700
+INFO:craps:* Trey: 2700
+INFO:craps:* Guido: 2700
+INFO:craps:* heisenberg: 2700
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 8
+INFO:craps:heisenberg's point: 8
+INFO:craps:heisenberg shoots: 5
+INFO:craps:heisenberg shoots: 9
+INFO:craps:heisenberg shoots: 8
+INFO:craps:heisenberg matches point 8
+INFO:craps:heisenberg wins
+INFO:craps:* house: 2400
+INFO:craps:* Mike: 2900
+INFO:craps:* Trey: 2900
+INFO:craps:* Guido: 2900
+INFO:craps:* heisenberg: 2900
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 3
+INFO:craps:house wins
+INFO:craps:* house: 2800
+INFO:craps:* Mike: 2800
+INFO:craps:* Trey: 2800
+INFO:craps:* Guido: 2800
+INFO:craps:* heisenberg: 2800
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 6
+INFO:craps:Trey's point: 6
+INFO:craps:Trey shoots: 2
+INFO:craps:Trey shoots: 9
+INFO:craps:Trey shoots: 6
+INFO:craps:Trey matches point 6
+INFO:craps:Trey wins
+INFO:craps:* house: 2000
+INFO:craps:* Mike: 3000
+INFO:craps:* Trey: 3000
+INFO:craps:* Guido: 3000
+INFO:craps:* heisenberg: 3000
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 7
+INFO:craps:Guido wins
+INFO:craps:* house: 1200
+INFO:craps:* Mike: 3200
+INFO:craps:* Trey: 3200
+INFO:craps:* Guido: 3200
+INFO:craps:* heisenberg: 3200
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 9
+INFO:craps:heisenberg's point: 9
+INFO:craps:heisenberg shoots: 7
+INFO:craps:heisenberg craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 1600
+INFO:craps:* Mike: 3100
+INFO:craps:* Trey: 3100
+INFO:craps:* Guido: 3100
+INFO:craps:* heisenberg: 3100
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 10
+INFO:craps:Mike's point: 10
+INFO:craps:Mike shoots: 3
+INFO:craps:Mike shoots: 7
+INFO:craps:Mike craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 2000
+INFO:craps:* Mike: 3000
+INFO:craps:* Trey: 3000
+INFO:craps:* Guido: 3000
+INFO:craps:* heisenberg: 3000
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 7
+INFO:craps:Trey wins
+INFO:craps:* house: 1200
+INFO:craps:* Mike: 3200
+INFO:craps:* Trey: 3200
+INFO:craps:* Guido: 3200
+INFO:craps:* heisenberg: 3200
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 5
+INFO:craps:Guido's point: 5
+INFO:craps:Guido shoots: 10
+INFO:craps:Guido shoots: 8
+INFO:craps:Guido shoots: 6
+INFO:craps:Guido shoots: 3
+INFO:craps:Guido shoots: 9
+INFO:craps:Guido shoots: 7
+INFO:craps:Guido craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 1600
+INFO:craps:* Mike: 3100
+INFO:craps:* Trey: 3100
+INFO:craps:* Guido: 3100
+INFO:craps:* heisenberg: 3100
+INFO:craps:** shooter: heisenberg
+INFO:craps:heisenberg shoots: 10
+INFO:craps:heisenberg's point: 10
+INFO:craps:heisenberg shoots: 6
+INFO:craps:heisenberg shoots: 7
+INFO:craps:heisenberg craps, loses!
+INFO:craps:house wins
+INFO:craps:* house: 2000
+INFO:craps:* Mike: 3000
+INFO:craps:* Trey: 3000
+INFO:craps:* Guido: 3000
+INFO:craps:* heisenberg: 3000
+INFO:craps:** shooter: Mike
+INFO:craps:Mike shoots: 6
+INFO:craps:Mike's point: 6
+INFO:craps:Mike shoots: 6
+INFO:craps:Mike matches point 6
+INFO:craps:Mike wins
+INFO:craps:* house: 1200
+INFO:craps:* Mike: 3200
+INFO:craps:* Trey: 3200
+INFO:craps:* Guido: 3200
+INFO:craps:* heisenberg: 3200
+INFO:craps:** shooter: Trey
+INFO:craps:Trey shoots: 11
+INFO:craps:Trey wins
+INFO:craps:* house: 400
+INFO:craps:* Mike: 3400
+INFO:craps:* Trey: 3400
+INFO:craps:* Guido: 3400
+INFO:craps:* heisenberg: 3400
+INFO:craps:** shooter: Guido
+INFO:craps:Guido shoots: 9
+INFO:craps:Guido's point: 9
+INFO:craps:Guido shoots: 9
+INFO:craps:Guido matches point 9
+INFO:craps:Guido wins
+INFO:craps:* house: -400
+INFO:craps:* Mike: 3600
+INFO:craps:* Trey: 3600
+INFO:craps:* Guido: 3600
+INFO:craps:* heisenberg: 3600
+INFO:craps:game over
+
+Process finished with exit code 0
