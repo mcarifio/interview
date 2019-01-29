@@ -12,11 +12,17 @@ numpy = "*"  # big stick
 fire = "*"
 
 [tool.poetry.dev-dependencies]
+# pytest and its supporting cast.
 pytest = "^3.4"
 pytest-runner = "*"
 testfixtures = "*"
 hypothesis = "*"
-black = ""
+
+# Project workflow? Seems pipenv && poetry && hatch are in a war
+# hatch = "*"
+
+# Note: Coordinate this with Pycharm by way of the Pycharm plugin `black-pycharm`
+black = "^18.9b0"  # More consistent code formatting. Don't make me think.
 
 # https://black.readthedocs.io/en/latest/pyproject_toml.html
 [tool.black]
