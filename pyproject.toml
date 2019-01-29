@@ -7,7 +7,7 @@ description = ""
 authors = ["Mike Carifio <mike@carif.io>"]
 
 [tool.poetry.dependencies]
-python = "3.7"
+python = "^3.7"
 numpy = "*"  # big stick
 fire = "*"
 
