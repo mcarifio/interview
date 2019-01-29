@@ -7,7 +7,7 @@ rejection notices. I had a fair amount of those too.
 
 ## Layout
 
-I try to do interview questions in python3 to speed things along for me and interviewer. It hasn't always worked.
+I try to do interview questions in python3 to speed things along for me and the interviewer. It hasn't always worked.
 
 The repo uses [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for the environment and 
 [poetry](https://poetry.eustace.io/docs/) for the local (project venv) modules. In this way, the global environment should remain pristine.
