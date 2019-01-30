@@ -104,3 +104,22 @@ def test_win_point_5():
     assert dice_pass == p.DicePass.STAY
     assert point == None
     assert payout == p.BetPayout.WIN
+
+def test_win_point_5_with_SequenceRoll():
+    """
+    This pattern of testing lets you test the `win()` function with a sequence of rolls, either in a for loop or
+    roll by roll. Technically, you don't need SequenceRoll but it makes the abstraction a little cleaner.
+    :return:
+    """
+    seq = p.SequenceRoll([(4, 1), (1,4)])
+    point = None
+    for r in seq.roll():
+        decision, dice_pass, point, payout = p.win(p, point)
+
+    # At the end of the sequence
+    assert decision == p.Round.WIN
+    assert dice_pass == p.DicePass.STAY
+    assert point == None
+    assert payout == p.BetPayout.WIN
+
+

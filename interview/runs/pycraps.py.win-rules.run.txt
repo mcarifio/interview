@@ -1,0 +1,1831 @@
+/home/mcarifio/.pyenv/versions/3.7.0/bin/python /home/mcarifio/src/mcarifio/interviewpy/interview/pycraps.py
+DEBUG:__main__:logging starts at level DEBUG
+INFO:craps:Let's play...
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! Mike wins
+INFO:craps:* house: 9600
+INFO:craps:* bettor Mike: 1100
+INFO:craps:* bettor Trey: 1100
+INFO:craps:* bettor Guido: 1100
+INFO:craps:* bettor heisenberg: 1100
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! Mike wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 2
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:!! Mike wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:!! Mike wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 12
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 8000
+INFO:craps:* bettor Mike: 1500
+INFO:craps:* bettor Trey: 1500
+INFO:craps:* bettor Guido: 1500
+INFO:craps:* bettor heisenberg: 1500
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:!! Trey wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 8000
+INFO:craps:* bettor Mike: 1500
+INFO:craps:* bettor Trey: 1500
+INFO:craps:* bettor Guido: 1500
+INFO:craps:* bettor heisenberg: 1500
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 8000
+INFO:craps:* bettor Mike: 1500
+INFO:craps:* bettor Trey: 1500
+INFO:craps:* bettor Guido: 1500
+INFO:craps:* bettor heisenberg: 1500
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 2
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:!! Trey wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 12
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9600
+INFO:craps:* bettor Mike: 1100
+INFO:craps:* bettor Trey: 1100
+INFO:craps:* bettor Guido: 1100
+INFO:craps:* bettor heisenberg: 1100
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10800
+INFO:craps:* bettor Mike: 800
+INFO:craps:* bettor Trey: 800
+INFO:craps:* bettor Guido: 800
+INFO:craps:* bettor heisenberg: 800
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 2
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:!! Guido wins
+INFO:craps:* house: 9600
+INFO:craps:* bettor Mike: 1100
+INFO:craps:* bettor Trey: 1100
+INFO:craps:* bettor Guido: 1100
+INFO:craps:* bettor heisenberg: 1100
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:!! Guido wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:!! Guido wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 12
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:!! Guido wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:!! Trey wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:!! Trey wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 12
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:!! Trey wins
+INFO:craps:* house: 8000
+INFO:craps:* bettor Mike: 1500
+INFO:craps:* bettor Trey: 1500
+INFO:craps:* bettor Guido: 1500
+INFO:craps:* bettor heisenberg: 1500
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 7600
+INFO:craps:* bettor Mike: 1600
+INFO:craps:* bettor Trey: 1600
+INFO:craps:* bettor Guido: 1600
+INFO:craps:* bettor heisenberg: 1600
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:!! Trey wins
+INFO:craps:* house: 7200
+INFO:craps:* bettor Mike: 1700
+INFO:craps:* bettor Trey: 1700
+INFO:craps:* bettor Guido: 1700
+INFO:craps:* bettor heisenberg: 1700
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 6800
+INFO:craps:* bettor Mike: 1800
+INFO:craps:* bettor Trey: 1800
+INFO:craps:* bettor Guido: 1800
+INFO:craps:* bettor heisenberg: 1800
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 7200
+INFO:craps:* bettor Mike: 1700
+INFO:craps:* bettor Trey: 1700
+INFO:craps:* bettor Guido: 1700
+INFO:craps:* bettor heisenberg: 1700
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 6800
+INFO:craps:* bettor Mike: 1800
+INFO:craps:* bettor Trey: 1800
+INFO:craps:* bettor Guido: 1800
+INFO:craps:* bettor heisenberg: 1800
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 7200
+INFO:craps:* bettor Mike: 1700
+INFO:craps:* bettor Trey: 1700
+INFO:craps:* bettor Guido: 1700
+INFO:craps:* bettor heisenberg: 1700
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 7600
+INFO:craps:* bettor Mike: 1600
+INFO:craps:* bettor Trey: 1600
+INFO:craps:* bettor Guido: 1600
+INFO:craps:* bettor heisenberg: 1600
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 8000
+INFO:craps:* bettor Mike: 1500
+INFO:craps:* bettor Trey: 1500
+INFO:craps:* bettor Guido: 1500
+INFO:craps:* bettor heisenberg: 1500
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8400
+INFO:craps:* bettor Mike: 1400
+INFO:craps:* bettor Trey: 1400
+INFO:craps:* bettor Guido: 1400
+INFO:craps:* bettor heisenberg: 1400
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 2
+INFO:craps:!! house wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 12
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9600
+INFO:craps:* bettor Mike: 1100
+INFO:craps:* bettor Trey: 1100
+INFO:craps:* bettor Guido: 1100
+INFO:craps:* bettor heisenberg: 1100
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 9600
+INFO:craps:* bettor Mike: 1100
+INFO:craps:* bettor Trey: 1100
+INFO:craps:* bettor Guido: 1100
+INFO:craps:* bettor heisenberg: 1100
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 2
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:!! Guido wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 2
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:!! Guido wins
+INFO:craps:* house: 8800
+INFO:craps:* bettor Mike: 1300
+INFO:craps:* bettor Trey: 1300
+INFO:craps:* bettor Guido: 1300
+INFO:craps:* bettor heisenberg: 1300
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 2
+INFO:craps:!! house wins
+INFO:craps:* house: 9600
+INFO:craps:* bettor Mike: 1100
+INFO:craps:* bettor Trey: 1100
+INFO:craps:* bettor Guido: 1100
+INFO:craps:* bettor heisenberg: 1100
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:!! Mike wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 2
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 12
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 2
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 3
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9600
+INFO:craps:* bettor Mike: 1100
+INFO:craps:* bettor Trey: 1100
+INFO:craps:* bettor Guido: 1100
+INFO:craps:* bettor heisenberg: 1100
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:!! Trey wins
+INFO:craps:* house: 9200
+INFO:craps:* bettor Mike: 1200
+INFO:craps:* bettor Trey: 1200
+INFO:craps:* bettor Guido: 1200
+INFO:craps:* bettor heisenberg: 1200
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 9600
+INFO:craps:* bettor Mike: 1100
+INFO:craps:* bettor Trey: 1100
+INFO:craps:* bettor Guido: 1100
+INFO:craps:* bettor heisenberg: 1100
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! Mike wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 2
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10800
+INFO:craps:* bettor Mike: 800
+INFO:craps:* bettor Trey: 800
+INFO:craps:* bettor Guido: 800
+INFO:craps:* bettor heisenberg: 800
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! Mike wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:!! Mike wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:!! Trey wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10800
+INFO:craps:* bettor Mike: 800
+INFO:craps:* bettor Trey: 800
+INFO:craps:* bettor Guido: 800
+INFO:craps:* bettor heisenberg: 800
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! Mike wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:!! Mike wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:!! Trey wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 12
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 12
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:!! Mike wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 12
+INFO:craps:current shooter Mike shoots: 2
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 3
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 12
+INFO:craps:!! house wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 2
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 13200
+INFO:craps:* bettor Mike: 200
+INFO:craps:* bettor Trey: 200
+INFO:craps:* bettor Guido: 200
+INFO:craps:* bettor heisenberg: 200
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:!! Guido wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 13200
+INFO:craps:* bettor Mike: 200
+INFO:craps:* bettor Trey: 200
+INFO:craps:* bettor Guido: 200
+INFO:craps:* bettor heisenberg: 200
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 2
+INFO:craps:current shooter heisenberg shoots: 12
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 2
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! Mike wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:!! Guido wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 10
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:!! Guido wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 2
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:!! Trey wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:current shooter Trey shoots: 2
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Guido shoots: 2
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 2
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 9
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 12
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:!! Guido wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10800
+INFO:craps:* bettor Mike: 800
+INFO:craps:* bettor Trey: 800
+INFO:craps:* bettor Guido: 800
+INFO:craps:* bettor heisenberg: 800
+INFO:craps:current shooter Guido shoots: 12
+INFO:craps:!! house wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:!! Mike wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:!! Trey wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:!! Guido wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 2
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:!! Mike wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 3
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 11
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! Trey wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Trey shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:!! Guido wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 12
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 2
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:!! Guido wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 9
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10800
+INFO:craps:* bettor Mike: 800
+INFO:craps:* bettor Trey: 800
+INFO:craps:* bettor Guido: 800
+INFO:craps:* bettor heisenberg: 800
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 11
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 10000
+INFO:craps:* bettor Mike: 1000
+INFO:craps:* bettor Trey: 1000
+INFO:craps:* bettor Guido: 1000
+INFO:craps:* bettor heisenberg: 1000
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10400
+INFO:craps:* bettor Mike: 900
+INFO:craps:* bettor Trey: 900
+INFO:craps:* bettor Guido: 900
+INFO:craps:* bettor heisenberg: 900
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 10800
+INFO:craps:* bettor Mike: 800
+INFO:craps:* bettor Trey: 800
+INFO:craps:* bettor Guido: 800
+INFO:craps:* bettor heisenberg: 800
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:current shooter Guido shoots: 8
+INFO:craps:current shooter Guido shoots: 6
+INFO:craps:current shooter Guido shoots: 4
+INFO:craps:!! Guido wins
+INFO:craps:* house: 10800
+INFO:craps:* bettor Mike: 800
+INFO:craps:* bettor Trey: 800
+INFO:craps:* bettor Guido: 800
+INFO:craps:* bettor heisenberg: 800
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 3
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 12
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 10800
+INFO:craps:* bettor Mike: 800
+INFO:craps:* bettor Trey: 800
+INFO:craps:* bettor Guido: 800
+INFO:craps:* bettor heisenberg: 800
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 11
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:!! Trey wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Trey shoots: 5
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 11
+INFO:craps:!! Guido wins
+INFO:craps:* house: 11200
+INFO:craps:* bettor Mike: 700
+INFO:craps:* bettor Trey: 700
+INFO:craps:* bettor Guido: 700
+INFO:craps:* bettor heisenberg: 700
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 11600
+INFO:craps:* bettor Mike: 600
+INFO:craps:* bettor Trey: 600
+INFO:craps:* bettor Guido: 600
+INFO:craps:* bettor heisenberg: 600
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 6
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 8
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12000
+INFO:craps:* bettor Mike: 500
+INFO:craps:* bettor Trey: 500
+INFO:craps:* bettor Guido: 500
+INFO:craps:* bettor heisenberg: 500
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 12400
+INFO:craps:* bettor Mike: 400
+INFO:craps:* bettor Trey: 400
+INFO:craps:* bettor Guido: 400
+INFO:craps:* bettor heisenberg: 400
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 6
+INFO:craps:current shooter Trey shoots: 12
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 10
+INFO:craps:current shooter Trey shoots: 9
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 8
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 13200
+INFO:craps:* bettor Mike: 200
+INFO:craps:* bettor Trey: 200
+INFO:craps:* bettor Guido: 200
+INFO:craps:* bettor heisenberg: 200
+INFO:craps:** current shooter: heisenberg
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:!! heisenberg wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:current shooter heisenberg shoots: 5
+INFO:craps:current shooter heisenberg shoots: 4
+INFO:craps:current shooter heisenberg shoots: 10
+INFO:craps:current shooter heisenberg shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 13200
+INFO:craps:* bettor Mike: 200
+INFO:craps:* bettor Trey: 200
+INFO:craps:* bettor Guido: 200
+INFO:craps:* bettor heisenberg: 200
+INFO:craps:** current shooter: Mike
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 9
+INFO:craps:current shooter Mike shoots: 2
+INFO:craps:current shooter Mike shoots: 10
+INFO:craps:current shooter Mike shoots: 4
+INFO:craps:current shooter Mike shoots: 8
+INFO:craps:current shooter Mike shoots: 5
+INFO:craps:current shooter Mike shoots: 6
+INFO:craps:!! Mike wins
+INFO:craps:* house: 12800
+INFO:craps:* bettor Mike: 300
+INFO:craps:* bettor Trey: 300
+INFO:craps:* bettor Guido: 300
+INFO:craps:* bettor heisenberg: 300
+INFO:craps:current shooter Mike shoots: 3
+INFO:craps:!! house wins
+INFO:craps:* house: 13200
+INFO:craps:* bettor Mike: 200
+INFO:craps:* bettor Trey: 200
+INFO:craps:* bettor Guido: 200
+INFO:craps:* bettor heisenberg: 200
+INFO:craps:** current shooter: Trey
+INFO:craps:current shooter Trey shoots: 4
+INFO:craps:current shooter Trey shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 13600
+INFO:craps:* bettor Mike: 100
+INFO:craps:* bettor Trey: 100
+INFO:craps:* bettor Guido: 100
+INFO:craps:* bettor heisenberg: 100
+INFO:craps:** current shooter: Guido
+INFO:craps:current shooter Guido shoots: 5
+INFO:craps:current shooter Guido shoots: 7
+INFO:craps:!! house wins
+INFO:craps:* house: 14000
+INFO:craps:* bettor Mike: 0
+INFO:craps:* bettor Trey: 0
+INFO:craps:* bettor Guido: 0
+INFO:craps:* bettor heisenberg: 0

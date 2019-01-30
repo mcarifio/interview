@@ -611,7 +611,9 @@ from dataclasses import dataclass, field  # new in python3.7, more https://realp
 from typing import List
 from itertools import cycle  ## https://docs.python.org/3/library/itertools.html#itertools.cycle
 import inspect
-import fire
+import fire  ## https://github.com/google/python-fire/blob/master/docs/guide.md
+# import attrdict
+
 
 
 class Dice:
@@ -678,6 +680,59 @@ class FixedRoll(Roll):
         self._roll_counter += 1
         return super().roll()
 
+class SequenceRoll(Roll):
+    """
+    A sequence roll is basically a predefined sequence of rolls that are served up by the `roll()` function using
+    the python generator pattern. The sequence is populated by the constructor `__init__`. This is useful for testing
+    `win()` since the same sequence of rolls is always returned by the `roll()` function.
+    """
+
+    def __init__(self, seq: List[tuple]):
+        assert len(seq) > 0  # Must be at least one roll
+        cardinality = len(seq[0])  # cardinality or number of slots in the tuple.
+        assert all(len(s) == cardinality for s in seq[1:])  # All the rolls in seq must have the same cardinality
+        # super().__init__()  ## not needed currently
+        self.seq = seq
+
+    def roll(self):
+        """
+        Return the next roll from the pre-defined sequence of rolls. Use a generator to clarify the edge condition that
+        you've run out of rolls.
+        :return:
+        """
+        try:
+            for s in self.seq:
+                yield s
+        except StopIteration as si:
+            # You called roll after using up the sequence. return None
+            return None
+
+class SequenceGame:
+    """
+    The sequence of rolls by player for a game. This can be used to replay a game.
+    """
+
+    # TODO mike@carif.io: only python built-in types can hint?
+    def __init__(self, players:List, seq:List[dict]):
+        self.seq = seq
+
+    def roll(self):
+        """
+        mike = Shooter('Mike')
+        guido = Shooter('Guido')
+
+        a_game = SequenceGame([mike, guido], [dict(shooter=m, rolls=[(1,5), (5,1)]),
+                                              dict(shooter=g, rolls=[(6,1)]),
+                                              dict(shooter=m, rolls=[(4,1), (4,1), (6, 1), (1, 6)]],
+                                              dict(shooter=g, rolls=[(1, 1)])])
+        :return:
+        """
+        try:
+            for i in self.seq:
+                for r in i['rolls']:
+                    yield r
+        except StopIteration as si:
+            return None
 
 @dataclass  ## https://docs.python.org/3/library/dataclasses.html
 class Bettor:
@@ -811,7 +866,7 @@ class Shooter(Bettor):
 # Make the various game states explicit:
 # * Round - did the current_shooter win the round?
 # * DicePass - is it time to pass the dice?
-# * PetPayout - what's the bet payout multiplier?
+# * BetPayout - what's the bet payout multiplier?
 
 class Round(Enum):
     """
@@ -916,24 +971,28 @@ def game(roll=FixedRoll(), house=None, shooters=None, starting_bet=100):
         logger.info(f"** current shooter: {current_shooter.name}")
 
         dice_pass = DicePass.STAY
-        # while the current_shooter
+        # while the current_shooter ...
         while dice_pass == DicePass.STAY:
-            # Let's see who can cover the starting bet?
-            bettors = list(s for s in shooters if
-                           s.current_balance >= starting_bet)  ## bettors are all shooters who can cover the starting_bet. At least the current shooter can.
-            for b in bettors: b.current_bet = starting_bet  ## all bettors bet the starting bet
-
             #  ... hasn't won or lost
             point = None  ## point is truthy.
             decision = Round.DRAW  ## no decision yet.
             winner = None  ## assign the winner when decision above is Round.WIN or Round.LOSE
             payout = BetPayout.NONE
             roll.reset()
+            # Who can cover the starting bet?
+            bettors = list(s for s in shooters if
+                           s.current_balance >= starting_bet)  ## bettors are all shooters who can cover the starting_bet. At least the current shooter can.
+            for b in bettors: b.current_bet = starting_bet  ## all bettors bet the starting bet
+
 
             while decision == Round.DRAW:
 
                 # Initial roll
                 r = roll.roll()
+                # roll.roll() can return None for SequenceRolls. Means you ran out of rolls for replaying a game.
+                if not isinstance(r, tuple):
+                    raise ValueError(f"Expecting tuple, got {type(r)}")
+
                 total = sum(r)
                 logger.info(f'current shooter {current_shooter.name} shoots: {total}')
 
@@ -945,8 +1004,8 @@ def game(roll=FixedRoll(), house=None, shooters=None, starting_bet=100):
             if decision == Round.WIN:
                 # Hose loses, all bettors win double.
                 winner = current_shooter
-                house.lose(int(payout) * winnings)
-                for b in bettors: b.win(int(payout) * b.current_bet)
+                house.lose(payout * winnings)
+                for b in bettors: b.win(payout * b.current_bet)
             else:
                 # House wins, all bettors lose.
                 winner = house
