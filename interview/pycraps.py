@@ -605,9 +605,9 @@ logger = logging.getLogger(__name__)
 logger.debug(f"logging starts at level {logging.getLevelName(logger.getEffectiveLevel())}")
 
 # import sys
+from enum import Enum, IntEnum, auto
 import random
-from dataclasses import dataclass  # new in python3.7, more https://realpython.com/python-data-classes/
-from dataclasses import field
+from dataclasses import dataclass, field  # new in python3.7, more https://realpython.com/python-data-classes/
 from typing import List
 from itertools import cycle  ## https://docs.python.org/3/library/itertools.html#itertools.cycle
 import inspect
@@ -649,6 +649,34 @@ class Roll:
     def roll(self):
         """Return a tuple of die faces"""
         return tuple(d.roll() for d in self.dice)  ## note: len(result) == 2 always
+
+
+class FixedRoll(Roll):
+    """
+    FixedRoll rolls a set of dice at most `max_rolls` times without an explicit reset. This addresses the problem of
+    runaway loops below.
+    """
+
+    _max_rolls = 100
+    _roll_counter = 0
+
+    def __init__(self, max_rolls = 100, dice=None):
+        super().__init__(dice)
+        self._max_rolls = max_rolls
+        self.reset()
+
+    @property
+    def max_rolls(self):
+        return self._max_rolls
+
+    def reset(self):
+        self._roll_counter = 0
+
+    def roll(self):
+        if self._roll_counter > self.max_rolls:
+            raise ValueError(f'too many rolls')
+        self._roll_counter += 1
+        return super().roll()
 
 
 @dataclass  ## https://docs.python.org/3/library/dataclasses.html
@@ -766,7 +794,7 @@ class Shooter(Bettor):
         if amount <= self.current_balance:
             self.current_bet = amount
         else:
-            raise Exception(f"Can't cover {amount} bet, balance: {current_balance}")()
+            raise Exception(f"Can't cover {amount} bet, balance: {current_balance}")
         return self
 
     def win_double(self):
@@ -780,7 +808,75 @@ class Shooter(Bettor):
         return self  ## fluent
 
 
-def game(roll=Roll(), rules=None, house=None, shooters=None, starting_bet=100):
+# Make the various game states explicit:
+# * Round - did the current_shooter win the round?
+# * DicePass - is it time to pass the dice?
+# * PetPayout - what's the bet payout multiplier?
+
+class Round(Enum):
+    """
+    The decision on a round: WIN, LOSE, DRAW (no decision)
+    """
+    WIN = auto()
+    LOSE = auto()
+    DRAW = auto()
+
+class DicePass(Enum):
+    """
+    The explicit signal to pass the die to the next shooter.
+    """
+    NEXT = auto()
+    STAY = auto()
+
+class BetPayout(IntEnum):
+    """How you win changes the payout schedule. Payout is the bet multiplier."""
+    LOSE = -1
+    NONE = 0
+    WIN = 1
+    DOUBLE = 2
+
+
+def win(total:int, point = None)->(Round, DicePass, int, BetPayout):
+    """
+    `win()` implements the craps state machine based on the game rules and the current point value.
+    You can implement other rules with different functions. The craps() function uses the result of win to decide
+    when to pass the dice to the next shooter and how to pay bettors.
+
+    dice result:
+    2, 3 or 12 -> "Craps" game resets, dice to move to next shooter, house takes all bets on table
+    7 or 11 -> winner, house doubles all bets
+    -> set the point to the resulting number. No bets win or lose, same shooter rolls again Example: shooter rolls a 5, the point is now "on" and set to 5. Game is now hit this number again before hitting a 7.
+
+   When the point is "on", dice rules are as follows:
+   7 -> "craps", point is now off, house takes all money, dice move to next shooter
+   2, 3, or 12 -> "craps" but point remains on, no bets lose or win. Shooter rolls again.
+   4,5,6,8,9,10 -> if this number is the current point, the shooter wins his original bet, the point is now off and the game starts over. If this number is not the current point, no bets win or lose and the shooter rolls again.
+
+    :param total: int, the current roll
+    :param point: int|None, the point that needs to be matched.
+    :return: a tuple of (Round, Pass, int, int)
+
+    Example usage: round_decision, next_shooter, point, bet_multiplier = win(7)
+                   assert round_decision == Decision.WIN
+                   assert next_shooter == Decision.STAY
+                   assert point == None
+                   assert bet_multipler == 2
+
+    """
+    if point:
+        if total == 7: return (Round.LOSE, DicePass.NEXT, None, BetPayout.LOSE)
+        if total in set([2, 3, 12]): return (Round.DRAW, DicePass.STAY, point, BetPayout.NONE)
+        if total == point: return (Round.WIN, DicePass.STAY, None, BetPayout.WIN)
+        return (Round.DRAW, DicePass.STAY, point, BetPayout.NONE)
+    else:
+        if total in set([7, 11]): return (Round.WIN, DicePass.STAY, None, BetPayout.WIN)
+        if total in set([2, 3, 12]): return (Round.LOSE, DicePass.NEXT, None, BetPayout.LOSE)
+        return (Round.DRAW, DicePass.STAY, total, BetPayout.NONE)
+
+
+
+
+def game(roll=FixedRoll(), house=None, shooters=None, starting_bet=100):
     """
     Play a game (of craps).
 
@@ -805,6 +901,7 @@ def game(roll=Roll(), rules=None, house=None, shooters=None, starting_bet=100):
         logger.info("game over")
         return result
 
+    # Let's play! https://www.youtube.com/watch?v=j7uL3DryXkk
     logger.info("Let's play...")
     for current_shooter in cycle(shooters):  ## cycle through the shooters forever (see the breaks below)
 
@@ -816,80 +913,51 @@ def game(roll=Roll(), rules=None, house=None, shooters=None, starting_bet=100):
         if current_shooter.current_balance <= 0: continue  ## current shooter can't shoot without money
         # Here: current_shooter has enough money to shoot
 
-        logger.info(f"** shooter: {current_shooter.name}")
+        logger.info(f"** current shooter: {current_shooter.name}")
 
-        # Let's see who can cover the starting bet?
-        bettors = list(s for s in shooters if
-                       s.current_balance >= starting_bet)  ## bettors are all shooters who can cover the starting_bet. At least the current shooter can.
-        for b in bettors: b.current_bet = starting_bet  ## all bettors bet the starting bet
+        dice_pass = DicePass.STAY
+        # while the current_shooter
+        while dice_pass == DicePass.STAY:
+            # Let's see who can cover the starting bet?
+            bettors = list(s for s in shooters if
+                           s.current_balance >= starting_bet)  ## bettors are all shooters who can cover the starting_bet. At least the current shooter can.
+            for b in bettors: b.current_bet = starting_bet  ## all bettors bet the starting bet
 
-        # Let's play! https://www.youtube.com/watch?v=j7uL3DryXkk
-        point = False  ## point is truthy.
-        winner = None  ## No one has won yet. Will later determine the payout.
+            #  ... hasn't won or lost
+            point = None  ## point is truthy.
+            decision = Round.DRAW  ## no decision yet.
+            winner = None  ## assign the winner when decision above is Round.WIN or Round.LOSE
+            payout = BetPayout.NONE
+            roll.reset()
 
-        # Initial roll
-        r = roll.roll()
-        total = sum(r)
-        logger.info(f'{current_shooter.name} shoots: {total}')
+            while decision == Round.DRAW:
 
-        # rules will eventually "externalize" this logic.
-        # For now, it's embedded. Find a winner.
-        if total in [2, 3, 12]:
-            winner = house
-        elif total in [7, 11]:
-            winner = current_shooter
-        else:
-            # The rules now change that we have a point.
-            point = total
-            logger.info(f"{current_shooter.name}'s point: {point}")
-
-            # Roll until you win
-            r = roll.roll()
-            total = sum(r)
-            logger.info(f'{current_shooter.name} shoots: {total}')
-            max_rerolls = 100
-            roll_counter = 0
-
-            while r != point:
-                # No point.
-                if total == 7:
-                    # Craps!
-                    winner = house
-                    logger.info(f"{current_shooter.name} craps, loses!")
-                    break
-                elif total == point:
-                    winner = current_shooter
-                    logger.info(f"{current_shooter.name} matches point {point}")
-                    break
-
-                # No decision, current_shooter rolls again.
-                roll_counter += 1
-                if roll_counter > max_rerolls:
-                    # Too many rerolls. Punt.
-                    logger.error(f"Too many rerolls ({roll_counter}), stopping")
-                    return statistics
-
-                # Reroll
+                # Initial roll
                 r = roll.roll()
                 total = sum(r)
-                logger.info(f'{current_shooter.name} shoots: {total}')
+                logger.info(f'current shooter {current_shooter.name} shoots: {total}')
 
-        # End the turn with payouts, moving money to/from the various bettors.
-        logger.info(f"{winner.name} wins")
-        winnings = sum(b.current_bet for b in bettors)
-        if winner == house:
-            # House wins, all bettors lose.
+                decision, dice_pass, point, payout = win(total, point)
+                logger.debug(f'decision: {decision}, pass: {dice_pass}, point: {point}, payout: {payout}')
+
+            # End the round with payouts, moving money to/from the various bettors.
+            winnings = sum(b.current_bet for b in bettors)
+            if decision == Round.WIN:
+                # Hose loses, all bettors win double.
+                winner = current_shooter
+                house.lose(int(payout) * winnings)
+                for b in bettors: b.win(int(payout) * b.current_bet)
+            else:
+                # House wins, all bettors lose.
+                winner = house
+                for b in bettors: b.lose()
+                house.win(winnings)
+
+            logger.info(f"!! {winner.name} wins")
+            # Balances at the end of the round.
+            logger.info(f"* house: {house.current_balance}")
             for b in bettors:
-                b.lose()
-            house.win(winnings)
-        else:
-            # Hose loses, all bettors win double.
-            house.lose(2 * winnings)
-            for b in bettors: b.win_double()
-
-        # Balances at the end of the round.
-        logger.info(f"* house: {house.current_balance}")
-        for b in bettors: logger.info(f"* {b.name}: {b.current_balance}")
+                logger.info(f"* bettor {b.name}: {b.current_balance}")
 
 
 def craps(level='INFO'):
@@ -917,12 +985,11 @@ def craps(level='INFO'):
                     Shooter(name='heisenberg', balance=1_000)]
 
     # Running the game will eventually return some statistics about the game which a caller might use
-    game_statistics = game(roll=Roll(),
-                           rules=None,
+    game_statistics = game(roll=FixedRoll(),
                            house=the_house,
                            shooters=the_shooters)
     return game_statistics
 
 
 if '__main__' == __name__:
-    fire.Fire(craps)
+    fire.Fire(craps())

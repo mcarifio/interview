@@ -75,3 +75,32 @@ def test_roll_10_default_dice():
 def test_statistical_distribution():
     """Is the roller distributed randomly?"""
     assert True
+
+
+# test the various game rules here
+def test_win_no_point_7():
+    decision, dice_pass, point, payout = p.win(7)
+    assert decision == p.Round.WIN
+    assert dice_pass == p.DicePass.STAY
+    assert point == None
+    assert payout == p.BetPayout.WIN
+
+def test_win_no_point_11():
+    decision, dice_pass, point, payout = p.win(11)
+    assert decision == p.Round.WIN
+    assert dice_pass == p.DicePass.STAY
+    assert point == None
+    assert payout == p.BetPayout.WIN
+
+def test_win_point_5():
+    decision, dice_pass, point, payout = p.win(5)
+    assert decision == p.Round.DRAW
+    assert dice_pass == p.DicePass.STAY
+    assert point == 5
+    assert payout == p.BetPayout.NONE
+
+    decision, dice_pass, point, payout = p.win(5, point)
+    assert decision == p.Round.WIN
+    assert dice_pass == p.DicePass.STAY
+    assert point == None
+    assert payout == p.BetPayout.WIN
